@@ -1,0 +1,134 @@
+/* body and container */
+
+body
+{
+  padding: 0;
+  margin: 0;
+  background-color: #5e6668;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container
+{
+  background-color: #282a36;
+  padding: 5px;
+  border-radius: 20px;
+  height: 100%;
+}
+
+html, body
+{
+  height: 100%;
+}
+
+
+
+/* heading and nav */
+
+h1
+{
+  color: #fb5454;
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav
+{
+  font-family: 'Roboto', sans-serif;
+  /* color: #fb5454; */
+  justify-content: center;
+}
+
+.nav-item
+{
+  font-size: 22px;
+}
+
+.nav-link:hover
+{
+  color: #fb5454;
+}
+
+a:link
+{
+  color: #fcb500;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: #db5c01;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* below a tag is for the hover effect on the footer */
+a:hover
+{
+  color: #fb5454;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active
+{
+  color: #fcb500;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* jumbotron */
+.display-4
+{
+  font-size: 22px;
+}
+
+.lead
+{
+  color: #fb5454;
+}
+
+/* cards */
+
+.card
+{
+  width:45%;
+}
+
+.top
+{
+  display: inline-block;
+  margin-top: 60px;
+  background-color: #282a36;
+  border:none;
+}
+
+.card-body
+{
+  background-color: #282a36;
+}
+
+.list-group, .list-group-item
+{
+  background-color: #282a36;
+  color: #fb5454;
+  border:none;
+}
+
+.cardtitle
+{
+  color: #fb5454;
+}
+
+
+/* footer */
+footer
+{
+  text-align: center;
+  padding: 15px;
+  color: #fb5454;
+}
